@@ -1,0 +1,18 @@
+.sticky-header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff; /* Altere para a cor de fundo desejada */
+  padding: 10px; /* Adicione algum espaço ao redor do conteúdo */
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+body > :first-child {
+  padding-top: 60px; /* Ajuste este valor para corresponder à altura do seu cabeçalho */
+}
